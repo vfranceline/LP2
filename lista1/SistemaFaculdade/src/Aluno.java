@@ -28,7 +28,7 @@ public class Aluno {
     }
 
     public int permanencia(int anoAtual) {
-        return anoAtual - this.anoIngresso;
+        return anoAtual - this.anoIngresso; //esse this é opcional pq só tem uma variavel anoIngresso nesse metodo
     }
 
     public int mensalidade() {
@@ -37,6 +37,6 @@ public class Aluno {
 
     void informaDisciplina(int numDisciplinas){
         this.numDisciplinas = numDisciplinas;
-        
+        System.out.println("sua mensalidade será:" + this.mensalidade()); //usando o this para informar que o metodo mensalidade é dessa classe
     }
 }
