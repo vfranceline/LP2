@@ -39,4 +39,54 @@ public class Aluno {
         this.numDisciplinas = numDisciplinas;
         System.out.println("sua mensalidade será:" + this.mensalidade()); //usando o this para informar que o metodo mensalidade é dessa classe
     }
+
+    public int getAnoIngresso() {
+        return anoIngresso;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getNumDisciplinas() {
+        return numDisciplinas;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public boolean getMatriculado() {
+        return matriculado;
+    }
+
+    public void setAnoIngresso(int anoIngresso) {
+        this.anoIngresso = anoIngresso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setMatriculado(boolean matriculado) {
+        this.matriculado = matriculado;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setNumDisciplinas(int numDisciplinas) {
+        this.numDisciplinas = numDisciplinas;
+    }
+    
+
 }

@@ -21,4 +21,47 @@ public class Livro {
         System.out.println("O ano do livro é: " + this.ano);
         System.out.println("A edição do livro é: " + this.edicao);
     }
+
+
+    // gets
+    public String getNome() {
+        return nome;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getEdicao() {
+        return edicao;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public double getCustoProd() {
+        return custoProd;
+    }
+
+    // sets
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setEdicao(int edicao) {
+        this.edicao = edicao;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    public void setCustoProd(double custoProd) {
+        this.custoProd = custoProd;
+    }
 }

@@ -50,12 +50,61 @@ public class Carteira {
     }
 
     //na prova vamos fazer só um get e set (assumindo que os outros vão seguir o mesmo padrão)
-    public void setNum (int num){
-        this.num = num;
-    }
 
     public int getNum (int num){
         return this.num;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getExpedicao() {
+        return expedicao;
+    }
+
+    public int getPontos() {
+        return pontos;
+    }
+
+    public String getSituacao() {
+        return situacao;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getValidade() {
+        return validade;
+    }
+    
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public void setExpedicao(String expedicao) {
+        this.expedicao = expedicao;
+    }
+
+    public void setPontos(int pontos) {
+        this.pontos = pontos;
+    }
+
+    public void setSituacao(String situacao) {
+        this.situacao = situacao;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setValidade(String validade) {
+        this.validade = validade;
+    }
+
+    public void setNum (int num){
+        this.num = num;
     }
 
 }
