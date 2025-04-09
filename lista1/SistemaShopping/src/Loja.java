@@ -1,5 +1,5 @@
 public class Loja {
-    private String nomeFantasia, razaoSocial, numCnpj;
+    private String nomeFantasia, razaoSocial, numCnpj, publicoAlvo;
     private int digitoCnpj;
     private double faturamento, area;
 
@@ -13,7 +13,11 @@ public class Loja {
     public Loja (String nome, String numCnpj, int digitoCnpj, double faturamento, String publicoAlvo){
         this(nome, nome, numCnpj, digitoCnpj);
         this.faturamento = faturamento;
-        // this.publicoAlvo = publicoAlvo;
+        this.publicoAlvo = publicoAlvo;
+    }
+
+    public double calcularAluguel () {
+        return this.area * 50;
     }
 
     // gets
@@ -35,7 +39,10 @@ public class Loja {
     public String getRazaoSocial() {
         return razaoSocial;
     }
-
+    public String getPublicoAlvo() {
+        return publicoAlvo;
+    }
+    
     // sets
     public void setArea(double area) {
         this.area = area;
@@ -54,5 +61,9 @@ public class Loja {
     }
     public void setRazaoSocial(String razaoSocial) {
         this.razaoSocial = razaoSocial;
+    }
+
+    public void setPublicoAlvo(String publicoAlvo) {
+        this.publicoAlvo = publicoAlvo;
     }
 }
