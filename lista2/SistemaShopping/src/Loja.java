@@ -20,6 +20,10 @@ public class Loja {
         return this.area * 50;
     }
 
+    public boolean compararFaturamento(Loja outraLoja){
+        return this.faturamento > outraLoja.faturamento;
+    }
+
     // gets
     public double getArea() {
         return area;
