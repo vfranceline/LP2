@@ -1,4 +1,4 @@
-package SistemaTelefone;
+package lista3.SistemaTelefone;
 
 public class Tempo {
     private int hora, minuto, segundo;

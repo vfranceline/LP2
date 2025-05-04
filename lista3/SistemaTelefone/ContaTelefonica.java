@@ -1,4 +1,4 @@
-package SistemaTelefone;
+package lista3.SistemaTelefone;
 
 import java.util.ArrayList;
 
@@ -12,9 +12,6 @@ public class ContaTelefonica {
     private int ano, numContrato;
     private ArrayList<Ligacao> ligacoes;
 
-
-
-
 // • Método que permita criar uma conta telefônica sem nenhuma ligação (uma nova conta).
     public ContaTelefonica(String mes, int ano, int numContrato){
         this.mes = mes;
@@ -26,6 +23,8 @@ public class ContaTelefonica {
 // • Método que permita adicionar uma ligação a uma conta telefônica.
     public void addLigacao(Ligacao ligacao){
         ligacoes.add(ligacao);
+        ligacoes.remove(ligacao);
+        ligacoes.remove(0);
     }
 
 // • Método que calcule e retorne o valor total da conta telefônica. O valor total da conta

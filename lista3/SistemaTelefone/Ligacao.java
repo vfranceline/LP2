@@ -1,4 +1,4 @@
-package SistemaTelefone;
+package lista3.SistemaTelefone;
 
 public class Ligacao {
     private int numero_origem, numero_destino;

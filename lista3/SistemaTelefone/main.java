@@ -1,4 +1,4 @@
-package SistemaTelefone;
+package lista3.SistemaTelefone;
 
 public class main {
     public static void main(String[] args) {
